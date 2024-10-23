@@ -1,7 +1,7 @@
 package jdbc2.entity;
 
 public class Customer {
-
+    // 고객 아이디, 고객명, 나이, 등급, 직업, 적립금
     private String customerID;
     private String customerName;
     private int age;

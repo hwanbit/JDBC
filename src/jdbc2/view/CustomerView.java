@@ -22,7 +22,7 @@ public class CustomerView {
 
     public void printFooterf() {
         System.out.println("=============================");
-        System.out.println("========= print Done =========");
+        System.out.println("========= Print Done =========");
         System.out.println("=============================");
     }
 }

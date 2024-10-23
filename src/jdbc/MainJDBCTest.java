@@ -20,7 +20,7 @@ public class MainJDBCTest {
             // result = sql문의 출력 결과, result.next(); 를 통해 result 값의 첫번째 행을 가리킬 수 있음, 후에 get 메서드를 통해 특정 행과 열을 가져옴
             // while문에 boolean을 통해 다음 행에 값이 있는지 판단 (값이 있으면 true, 값이 없으면 false)
 
-            // sql문은 index가 0이 아닌 1로 시작, column 명으로 접근하는 게 좋은 방법
+            // sql문은 index가 0이 아닌 1로 시작, column 명으로 접근하는 게 가독성이 좋음
             while (result.next()) {
                 //String customerId = result.getString(2);
                 String customerId = result.getString("주문고객");

@@ -35,7 +35,7 @@ public class Main {
                 customerList.add(customer);
             }
 
-            // 반복문이 끝나면 모든 고객의 정보가 customerList에 저장된다.
+            // 반복문이 끝나면 모든 고객의 정보가 customerList (ArrayList)에 저장된다.
             pstmt.close();
             con.close();
 
